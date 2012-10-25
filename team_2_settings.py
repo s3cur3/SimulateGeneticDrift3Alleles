@@ -7,7 +7,7 @@
 """
 
 # The fixed number of individuals in the population at each generation
-popSize = 100
+popSize = (43+40+12)
 
 # A dictionary associating numbers of offspring produced at a time with a
 # probability. (Note that these probabilities should sum to 1.)
@@ -22,10 +22,11 @@ popSize = 100
 # Note that you can leave out any values that have zero probability. Thus, a sea
 # turtle might have a dictionary like this:
 #    { 100: 0.1, 101: 0.4, 102: 0.3, 103: 0.2 }
-probOfLitterSize = { 1: 0.25, 2: 0.25, 3: 0.25, 4: 0.25 }
+probOfLitterSize = { 1: 0.95, 2: 0.05 }
 
 # The initial frequencies of the three alleles in the population
-startingFrequencies = ( 0.05, 0.05, 0.9 )
+# For pigs, we're using bay, black, chestnut
+startingFrequencies = ( 0.45, 0.42, 0.13 )
 
 # The species name (only used for debugging purposes)
 name = "T. rex"

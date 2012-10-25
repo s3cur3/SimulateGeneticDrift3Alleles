@@ -54,10 +54,7 @@ class Species:
             sex = random.choice( Sex.options )
             population.append( Individual(alleles, sex) )
 
-        # Sanity check
         self.setPopulation(population)
-        if startingFrequencies != self.getAlleleFrequencies():
-            exit( "Error!!" )
 
 
         

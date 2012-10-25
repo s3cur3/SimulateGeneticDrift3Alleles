@@ -63,3 +63,19 @@ r/authenticator_old.R
 *.history
 
 */*.history
+
+*.pyc
+
+*.pdf
+
+*.tsv
+
+*.png
+
+plot_100_gens_all_3_alleles_cleaner_still.gp
+
+plot_100_gens_all_3_alleles_cleaner.gp
+
+plot_1_extinct.gp
+
+plot_3_fixed.gp

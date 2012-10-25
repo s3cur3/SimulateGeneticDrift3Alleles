@@ -1,0 +1,13 @@
+              Data on the fixation events            
+-----------------------------------------------------
+Sample size (number of simulations): 100
+Population size: 95
+Fixed number of generations: 0
+A fixation event occurred 100% of the time.
+Mean generations to fixation: 277.01
+Standard deviation: 26.048331205980695
+Max generations to fixation: 1729
+Min generations to fixation: 49
+
+Starting frequencies: (0.45, 0.42, 0.13)
+Number of times each allele became fixed (a_0, a_1, a_2): [36.0, 50.0, 14.0]
